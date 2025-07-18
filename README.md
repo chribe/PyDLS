@@ -42,3 +42,4 @@ The color scheme of the gui can be adapted by  "Settings>Change Color Scheme". I
 5. color of boxes (default blue #4D00FF)
 6. color of text (default black #000716)
 
+The files *ilt.py* and *ldp.py* are for the Contin-like analysis and are modified based on https://github.com/caizkun/pyilt.
