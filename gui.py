@@ -110,8 +110,8 @@ def define_colors(idx):
     return color
 
 color=define_colors(Status['coloridx'])
-if os.path.exists('DLSPysettings.txt'):
-    file='DLSPysettings.txt'
+if os.path.exists('PyDLSsettings.txt'):
+    file='PyDLSsettings.txt'
     with open(file, 'r') as f:
         for line in f:
                 line = str(line.strip())
@@ -120,7 +120,7 @@ if os.path.exists('DLSPysettings.txt'):
                 key, value = line.split(':', 1)
                 Status[key.strip()] = value.strip()
 else:
-    print('No file "DLSPysettings.txt" found.')
+    print('No file "PyDLSsettings.txt" found.')
 def changecolors():
     if Status['coloridx']==2:
         Status['coloridx']=0
