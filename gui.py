@@ -590,7 +590,7 @@ def Contact():
 
 def Help():
     logentry('Help')
-    webbrowser.open("google.de", new=1)
+    webbrowser.open("https://github.com/chribe/PyDLS/blob/main/README.md", new=1)
     
     
 #%% save data
