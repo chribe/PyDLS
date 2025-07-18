@@ -449,7 +449,7 @@ def get_metadata_from_user(master,Status):
 
 def uploadZenodo(ACCESS_TOKEN,metadata,file,DLS):
 
-    ZENODO_URL = 'https://sandbox.zenodo.org/api/deposit/depositions'
+    ZENODO_URL = 'https://zenodo.org/api/deposit/depositions'
     md={'metadata':{'upload_type':'dataset'}}
     for key in ['creators','description','title']:
         md['metadata'].update({key:metadata[key]})
